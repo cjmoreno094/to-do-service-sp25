@@ -9,13 +9,18 @@
 ### cURL command
 
 ```shell
-<replace with the command line used>
+curl http://localhost:3000/users/4
 ```
 
 ### cURL response
 
 ```shell
-<replace with the response>
+{
+  "last_name": "Bailey",
+  "first_name": "Bill",
+  "email": "b.bailey@example.com",
+  "id": 4
+}
 ```
 
 ## Postman example
@@ -27,11 +32,16 @@
 **Method**:
 
 ```shell
-<replace with the request used for this example>
+curl -d "last_nameBailey&first_name=Bill&email=b.bailey@example.com"-X POST http:/localhost:3000/users
 ```
 
 ### Postman response
 
 ```shell
-<replace with the response>
+{
+  "last_nameBailey": "",
+  "first_name": "Bill",
+  "email": "b.bailey@example.com",
+  "id": 5
+}
 ```
