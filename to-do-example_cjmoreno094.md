@@ -1,10 +1,10 @@
 # Code examples
 
-**Author:** \<replace with your name\>
+**Author:** Cameron Moreno
 
 ## cURL example
 
-\<replace with a description of the example\>
+This cURL command will bring up the 4th user.
 
 ### cURL command
 
@@ -25,7 +25,7 @@ curl http://localhost:3000/users/4
 
 ## Postman example
 
-\<replace with a description of the example\>
+This Postman request shows the same example (4) using Postman as the test.
 
 ### Request
 
